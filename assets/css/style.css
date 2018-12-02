@@ -1,6 +1,9 @@
 .top-menu {
     float: right;
     padding: 20px 20px 0px 0px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
+    color: gray
     
 }
 
@@ -23,8 +26,9 @@ a:visited {
     margin: auto;
 }
 .paragraph {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    color: gray;
     padding: 10px;
     margin: 10px;
 }
@@ -45,12 +49,12 @@ a:visited {
 }
 
 .header {
-    font-size: 25px;
-    font-family: 'Verdana', 'Geneva', sans-serif;
+    font-size: 35px;
+    font-family: 'Ubuntu Condensed', sans-serif;
     border-bottom: 2px solid #cccccc;
     width: 880px;
     padding: 20px 0px;
-    color: white;
+    color: gray;
     font-weight: bold;
     margin:auto;
 }
@@ -76,17 +80,17 @@ a:visited {
 }
 
 .name {
-    font-size: 35px;
-    font-family: 'Verdana', 'Geneva', sans-serif; 
-    color: white;
+    font-size: 55px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: gray;
     font-weight: bold;
     
 }
 
 .title {
-    font-size: 20px;
-    font-family: 'Verdana', 'Geneva', sans-serif;  
-    color: white;
+    font-size: 30px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: gray;
 
 }
 
@@ -194,6 +198,31 @@ input {
 .six {
     grid-column: 3;
     grid-row: 2;
+    margin: 10px;
+    margin-top: 20px;
+
+
+}
+.seven {
+    grid-column: 1;
+    grid-row: 3;
+    margin: 10px;
+    margin-top: 20px;
+
+}
+
+.eight {
+    grid-column: 2;
+    grid-row: 3;
+    margin: 10px;
+    margin-top: 20px;
+
+
+}
+
+.nine {
+    grid-column: 3;
+    grid-row: 3;
     margin: 10px;
     margin-top: 20px;
 
